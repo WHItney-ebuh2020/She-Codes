@@ -12,17 +12,16 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
     letter-spacing: 1px;
-    gap: 60px;
 }
 
 .header {
     display:flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
-    gap: 5px;
+    padding: 20px;
+    gap: 15px;
 }
 
 .header img{
@@ -36,13 +35,21 @@
     font-size: 34px;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 700;
-    color: blue;
+    color: #1a64d6;
 }
 
 .header h2 {
     font-size: 34px;
     font-family: Arial, Helvetica, sans-serif;
     align-items: center;
+    font-weight: 400;
+}
+
+.Clouds {
+    gap: 50px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
 }
 
 .cloud1 {
@@ -51,12 +58,14 @@
     justify-content: center;
     align-items: center;
     gap: 10px;
+    padding: 10px;
 }
 
 .cloud1__row{
     display: flex;
     justify-content: center;
     align-items: center;
+  
 }
 
 .cloud1__time{
@@ -75,11 +84,14 @@
 .cloud1 h3 {
     font-size: 1.17em;
     font-weight: bold;
+    line-height: 30px;
 }
 
-.cloud1 h4 {
+ h4 {
     font-size: 18px;
     font-family: monospace;
+    font-weight: 200;
+    opacity: 0.7;
 }
 
 .cloud2 {
@@ -115,10 +127,7 @@
     font-weight: bold;
 }
 
-.cloud2 h4 {
-    font-size: 18px;
-    font-family: monospace;
-}
+
 
 .cloud3 {
     display: flex;
@@ -152,10 +161,7 @@
     
 }
 
-.cloud3 h4 {
-    font-size: 18px;
-    font-family: mo;
-}
+
 
 .button {
     display: flex;
@@ -163,6 +169,7 @@
     justify-content: center;
     align-items: center;
     gap: 10px;
+    padding-top: 40px;
 }
 .button a:hover {
     background: white;
@@ -182,4 +189,11 @@
     border-radius: 30px;
     padding: 16px 24px;
     cursor: pointer;
+}
+
+.button p {
+    padding: 15px 0;
+    font-size: 20px;
+    opacity: 0.7;
+    font-family: monospace;
 }
